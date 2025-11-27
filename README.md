@@ -53,7 +53,7 @@ An all-in-one, ultra-simple node for instant novel-to-image generation.
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/comfyui-novel-nodes-collection.git
+git clone https://github.com/forteau/comfyui-novel-nodes-collection.git
 cd comfyui-novel-nodes-collection
 pip install -r requirements.txt
 ```
@@ -254,7 +254,7 @@ Contributions are welcome! Please:
 
 ## 🐛 Bug Reports & Feature Requests
 
-Please use the [GitHub Issues](https://github.com/YOUR_USERNAME/comfyui-novel-nodes-collection/issues) page to:
+Please use the [GitHub Issues](https://github.com/forteau/comfyui-novel-nodes-collection/issues) page to:
 - Report bugs
 - Request new features
 - Ask questions
@@ -284,8 +284,8 @@ Built for the ComfyUI community with inspiration from:
 ## 📞 Support
 
 - **Documentation**: Check the README files in each node package folder
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/comfyui-novel-nodes-collection/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/comfyui-novel-nodes-collection/discussions)
+- **Issues**: [GitHub Issues](https://github.com/forteau/comfyui-novel-nodes-collection/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/forteau/comfyui-novel-nodes-collection/discussions)
 
 ---
 
