@@ -1,0 +1,23 @@
+# Novel Cinematic Orchestrator - Dependencies
+# ============================================
+# Most dependencies are already included with ComfyUI
+# This file lists any additional requirements
+
+# Core (usually already installed with ComfyUI)
+# torch
+# numpy
+
+# Text processing (standard library, no install needed)
+# re
+# json
+# hashlib
+# textwrap
+
+# Optional: For enhanced NLP (not required for basic functionality)
+# Uncomment if you want advanced text analysis
+# spacy>=3.0.0
+# nltk>=3.8.0
+
+# Optional: For advanced scene detection
+# Uncomment if you want scene break detection improvements
+# sentence-transformers>=2.0.0
