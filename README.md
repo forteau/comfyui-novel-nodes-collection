@@ -8,7 +8,7 @@ A comprehensive collection of ComfyUI custom nodes for transforming novels and s
 
 ## 📦 What's Included
 
-This repository contains two powerful node packages:
+This repository contains three powerful node packages:
 
 ### 1. 🎬 Novel Cinematic Orchestrator
 A comprehensive node pack for advanced novel-to-video production with fine-grained control.
@@ -37,6 +37,18 @@ An all-in-one, ultra-simple node for instant novel-to-image generation.
 - 🎨 Style and quality presets
 
 **Best For:** Beginners, quick prototyping, and users who want a simple turnkey solution.
+
+### 3. 📚 Novel to Story Diffusion
+A specialized node for converting novels into prompts compatible with **ComfyUI_StoryDiffusion**.
+
+**Key Features:**
+- 🎭 Automatic character extraction and formatting
+- 📝 Scene-by-scene prompt generation
+- 🔄 Direct Story Diffusion compatibility
+- 👥 Character consistency with "has same clothes" formatting
+- ⚡ Simple copy-paste workflow
+
+**Best For:** Users working with Story Diffusion who want consistent character generation across multiple scenes.
 
 ---
 
@@ -98,7 +110,21 @@ For professional workflows:
     └── config_json ────→ [Config Extractor] → [Pipeline]
 ```
 
-### Option 3: Large Novel Processing (50k+ words)
+### Option 3: Story Diffusion (Character Consistency)
+
+Perfect for Story Diffusion users:
+
+```
+[📚 Novel to Story Diffusion]
+    • novel_text: [Your novel]
+    • character_descriptions: Taylor: young woman, brown hair...
+    • num_scenes: 8
+         ↓
+    ├── character_prompt → [StoryDiffusion CLIPTextEncode] → "test" field
+    └── scene_prompts → [StoryDiffusion CLIPTextEncode] → main prompt
+```
+
+### Option 4: Large Novel Processing (50k+ words)
 
 Memory-efficient workflow for epic novels:
 
@@ -209,6 +235,13 @@ See [TurnkeyNovelToImages/README.md](TurnkeyNovelToImages/README.md) for:
 - Character detection system
 - Image count calculations
 - Simple workflow examples
+
+### Novel to Story Diffusion
+See [NovelToStoryDiffusion/README.md](NovelToStoryDiffusion/README.md) for:
+- Story Diffusion integration
+- Character prompt formatting
+- Scene prompt generation
+- Usage tips for consistency
 
 ---
 

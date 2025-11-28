@@ -1,0 +1,10 @@
+# Copy these commands and run them in PowerShell
+# Replace YOUR_USERNAME with your actual GitHub username
+
+cd "c:\Users\trini\Downloads\comfyui nodes\comfyui-novel-nodes-collection"
+
+git remote add origin https://github.com/YOUR_USERNAME/comfyui-novel-nodes-collection.git
+
+git branch -M main
+
+git push -u origin main

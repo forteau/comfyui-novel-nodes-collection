@@ -1,0 +1,6 @@
+After creating the repository on GitHub, run this command:
+
+cd "c:\Users\trini\Downloads\comfyui nodes\comfyui-novel-nodes-collection"
+git push -u origin main
+
+This will upload all your files to GitHub.
